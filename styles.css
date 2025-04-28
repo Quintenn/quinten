@@ -1,0 +1,15 @@
+body {
+    font-family: sans-serif;
+}
+
+section {
+    border: 1px solid black;
+    margin: 12px;
+    padding: 12px;
+}
+
+article {
+    border: 1px solid black;
+    margin: 12px;
+    padding: 12px;
+}
