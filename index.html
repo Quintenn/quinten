@@ -1,91 +1,139 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="style.css">
         <script src="script.js"></script>
     </head>
-    <body>
-        <header>
-            <p>Light Mode</p> <p>Dark Mode</p> <p>Nederlands</p> <p>English</p>
-            <h1>Hoi, ik ben Quinten.</h1>
+    <body class="body">
+        <header class="header">
+            <a class="lightmode">Light Mode</a> <a class="darkmode">Dark Mode</a> <a class="nederlands">Nederlands</a> <a class="english">English</a>
+            <h1>Hoi, ik ben Quinten!</h1>
+            <nav class="nav">
+            <button onclick="myFunction()">Over mij</button> <a>Mijn werk</a> <a>Mijn links</a> <a>FAQ</a> <a>Posts</a> <a>Contact</a>
+            </nav>
         </header>
-        <nav>
-            <a>Over mij</a> <a>Mijn werk</a> <a>Mijn links</a> <a>FAQ</a> <a>Contact</a>
-        </nav>
-        <section id="overmij">
-            <h2>Over mij</h2>
-            <img alt="Profielfoto">
-            <h3>Quinten van Leijenhorst</h3>
-            <h4>UX Designer</h4>
-            <h5>Korte introductie</h5>
-            <ul>
-                <li>
-                    <p>Wat doe ik?</p>
-                </li>
-                <li>
-                    <p>Wat kan ik?</p>
-                </li>
-                <li>
-                    <p>Wat heb ik gedaan?</p>
-                </li>
-            </ul>
-            <a>Kleine Call to action</a>
-            <h5>School</h5>
-            <p>Bachelor of Science in Communicatie & Multimedia Design</p>
-            <p><i>Afgestudeerd in 2026 bij de Haagse Hogeschool</i></p>
-            <h5>Werkervaring</h5>
-            <p>Dutchfgc.nl</p>
-            <p>Muziekwinkelrijswijk.nl</p>
-            <h5>Interesses</h5>
-            <ul>
-                <li>
-                    <p>Gaming</p>
-                </li>
-                <li>
-                    <p>Muziek</p>
-                </li>
-                <li>
-                    <p>Animatie</p>
-                </li>
-            </ul>
-            <h5>Talen</h5>
-            <p>Vloeiend Nederlands en Engels</p>
-        </section>
-        <section id="mijnwerk">
-            <h2>Mijn werk</h2>
-            <p>Kleine call to action</p>
-            <article id="tools">
-                <h3>Tools</h3>
-            </article>
-            <article id="webdesigns">
-                <h3>Web design</h3>
-                <article id="dutchfgc">DutchFGC</article>
-                <article id="muziekwinkelrijswijk">Muziekwinkel Rijswijk</article>
-            </article>
-            <article id="muziek">
-                <h3>Muziek</h3>
-            </article>
-            <article id="anderecreatieveprojecten">
-                <h3>Andere creatieve projecten</h3>
-            </article>
-        </section>
-        <section id="mijnlinks">
-            <h2>Mijn links</h2>
-            <a>Instagram</a> <a>Discord</a> <a>YouTube</a> <a>Linkedin</a>
-        </section>
-        <section id="FAQ">
-            <h2>FAQ</h2>
-            <p>Vraag 1</p>
-            <p>Vraag 2</p>
-            <p>Vraag 3</p>
-        </section>
-        <section id="Contact">
-            <h2>Contact</h2>
-            <p>Mijn email: <b>quintenvanleijenhorst@gmail.com</b></p>
-            <form>Contactformulier</form>
-        </section>
-        <footer>
-            <p>Dat was m.</p>
+
+        <!--Main-->
+        <main class="main">
+
+            <!---Over Mij-->
+            <section id="overmij">
+                <h2>Over mij</h2>
+                <img class="profielfoto" alt="Profielfoto" src="images/profielfoto.jpg">
+                <h3>Quinten van Leijenhorst</h3>
+                <h4>UX Designer</h4>
+                <h5>Korte introductie</h5>
+                <ul>
+                    <li>
+                        <p>Wat doe ik?</p>
+                    </li>
+                    <li>
+                        <p>Wat kan ik?</p>
+                    </li>
+                    <li>
+                        <p>Wat heb ik gedaan?</p>
+                    </li>
+                </ul>
+                <a>Kleine Call to action</a>
+                <h5>School</h5>
+                <p>Bachelor of Science in Communicatie & Multimedia Design</p>
+                <p><i>Afgestudeerd in 2026 bij de Haagse Hogeschool</i></p>
+                <h5>Werkervaring</h5>
+                <p>Dutchfgc.nl</p>
+                <p>Muziekwinkelrijswijk.nl</p>
+                <h5>Interesses</h5>
+                <ul>
+                    <li>
+                        <p>Gaming</p>
+                    </li>
+                    <li>
+                        <p>Muziek</p>
+                    </li>
+                    <li>
+                        <p>Animatie</p>
+                    </li>
+                </ul>
+                <h5>Talen</h5>
+                <p>Vloeiend Nederlands en Engels</p>
+            </section>
+
+            <!--Mijn Werk-->
+            <section class="mijnwerk">
+                <h2>Mijn werk</h2>
+                <div class="calltoaction">
+                    <p>Als je met me wil werken kan je mij een <a href="mailto:quintenvanleijenhorst@gmail.com">e-mail sturen!</a></p>
+                </div>
+                <article class="tools">
+                    <h3>Tools</h3>
+                    <h4>Web design</h4>
+                    <ul>
+                        <li>HTML, CSS & Javascript</li>
+                        <li>Figma</li>    
+                    </ul>
+                    <h4>Muziek</h4>
+                    <ul>
+                        <li>Reaper</li>
+                        <li>Instrumenten</li>    
+                    </ul>
+                    <h4>Multimedia</h4>
+                    <ul>
+                        <li>Darktable</li>
+                        <li>DaVinci Resolve</li>
+                        <li>Adobe Suite (ook al haat ik Adobe)</li>    
+                    </ul>
+                </article>
+                <article class="webdesigns">
+                    <h3>Web design</h3>
+                    <article id="dutchfgc">DutchFGC</article>
+                    <article id="muziekwinkelrijswijk">Muziekwinkel Rijswijk</article>
+                </article>
+                <article class="muziek">
+                    <h3>Muziek</h3>
+                    <p>Ik speel bas en maak covers op mijn <a href="https://www.youtube.com/@qquintenn">YouTube kanaal</a>. Ik maak ook af en toe vage beats.</p>
+                </article>
+                <article class="anderecreatieveprojecten">
+                    <h3>Andere creatieve projecten</h3>
+                    <ul>
+                        <li>Deze website</li>
+                        <li>Depressiekalender</li>
+                        <li>Shitpost plaatjes</li>
+                        <li>Desktop achtergronden</li>
+                    </ul>
+                </article>
+            </section>
+
+            <!--Mijn Links-->
+            <section class="mijnlinks">
+                <h2>Mijn links</h2>
+                <a href="https://www.instagram.com/quintenvanl/">Instagram</a> <a href="https://discordapp.com/users/qquintenn">Discord</a> <a href="https://www.youtube.com/@qquintenn">YouTube</a> <a href="https://www.linkedin.com/in/quinten-van-leijenhorst-31469514b/">Linkedin</a>
+            </section>
+
+            <!--FAQ-->
+            <section class="FAQ">
+                <h2>FAQ</h2>
+                <p>Vraag 1</p>
+                <p>Vraag 2</p>
+                <p>Vraag 3</p>
+            </section>
+
+            <!--Posts-->
+            <section class="Posts">
+                <h2>FAQ</h2>
+                <p>Vraag 1</p>
+                <p>Vraag 2</p>
+                <p>Vraag 3</p>
+            </section>
+            
+            <!--Contact-->
+            <section class="Contact">
+                <h2>Contact</h2>
+                <p>Mijn email: <b>quintenvanleijenhorst@gmail.com</b></p>
+                <form>Contactformulier</form>
+            </section>
+        </main>
+        
+        <!--Footer-->
+        <footer class="footer">
             <p>Quick Links</p>
             <p>Copyright</p>
         </footer>
