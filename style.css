@@ -1,11 +1,9 @@
 body {
     max-width: 1500px;
-    background-color: #181d1a;
-    color: #e2e7d3;
 }
 
 .header {
-    border: 1px solid #e2e7d3;
+    border: 1px solid #000;
     margin: 20px;
     padding: 20px;;
 }
@@ -20,7 +18,7 @@ body {
     justify-content: center;
     align-items: flex-start;
     margin: 20px;
-    border: 1px solid #e2e7d3;
+    border: 1px solid #000;
 }
 
 .profielfoto {
@@ -29,13 +27,13 @@ body {
 
 section {
     max-width: 900px;
-    border: 1px solid #e2e7d3;
+    border: 1px solid #000;
     margin: 20px auto;
     padding: 20px;
 }
 
 article {
-    border: 1px solid #e2e7d3;
+    border: 1px solid #000;
     margin: 20px;
     padding: 20px;
 }
@@ -44,7 +42,7 @@ article {
     display: flex;
     justify-content: center;
     gap: 20px;
-    border: 1px solid #e2e7d3;
+    border: 1px solid #000;
     margin: 20px;
     padding: 20px;
 }
