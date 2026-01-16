@@ -1,11 +1,16 @@
 body {
-    max-width: 1500px;
+    max-width: 50%;
+    margin: 0 auto;
 }
 
 .header {
     border: 1px solid #000;
     margin: 20px;
-    padding: 20px;;
+    padding: 20px;
+}
+
+#overmij {
+    display: none;
 }
 
 .header p {
@@ -18,11 +23,16 @@ body {
     justify-content: center;
     align-items: flex-start;
     margin: 20px;
-    border: 1px solid #000;
 }
 
 .profielfoto {
     max-width: 200px;
+}
+
+.links {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px;
 }
 
 section {
